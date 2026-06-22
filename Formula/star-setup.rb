@@ -5,21 +5,21 @@ class StarSetup < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/star-setup/core/releases/download/v0.1.0/star-setup-aarch64-apple-darwin.tar.xz"
-      sha256 "ba88c6b501f831d240ff405dbae05774d6c25b5dbe25d15dae9e0f3ff1c52662"
+      sha256 "0c157863a262067a3a920c28d3d37e122a4f9f2020c5c89d385c83140b0bcdbb"
     end
     if Hardware::CPU.intel?
       url "https://github.com/star-setup/core/releases/download/v0.1.0/star-setup-x86_64-apple-darwin.tar.xz"
-      sha256 "ff8740a7499507310436bf9b0facbf30475be7c8fc82eaf1f3a3a52f82293d44"
+      sha256 "bbd52026610efc241eda8a6eb9432489afa1861199c7d5d25934efb982461922"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/star-setup/core/releases/download/v0.1.0/star-setup-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "fa6d12ecc8fdb00471d027ef3eaeb38cd07430c5bcaf234a01050e772a52f66a"
+      sha256 "1fc4e598e012b26a291fa05fbe4540b2935f6366edd2eafc7a7ac43372de4d04"
     end
     if Hardware::CPU.intel?
       url "https://github.com/star-setup/core/releases/download/v0.1.0/star-setup-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "bcc884daf0cdf4daa3a65cd88085c1748b7d55b43c48f759c32f53791192eb01"
+      sha256 "4c61d3468b06c4ce002054c360bbc4df538ff413f3ff44bcd5b0b090b8e8bbcb"
     end
   end
 
