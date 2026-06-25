@@ -1,25 +1,25 @@
 class StarSetup < Formula
-  desc "Lightweight CLI to clone, configure, and wire single or multi-repo CMake ecosystems"
+  desc "Lightweight CLI to clone, configure, and wire single or multi-repo ecosystems"
   homepage "https://github.com/star-setup/core"
-  version "0.2.0"
+  version "0.2.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/star-setup/core/releases/download/v0.2.0/star-setup-aarch64-apple-darwin.tar.xz"
-      sha256 "b5e002ab5531c173aad85d771136b043c12596be610d7f36473171e673a899b7"
+      url "https://github.com/star-setup/core/releases/download/v0.2.1/star-setup-aarch64-apple-darwin.tar.xz"
+      sha256 "1d10b58b9a59a0ce371bbde7dedc8125e0c96cd9ccb6fac43539cf08a77a5f9a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/star-setup/core/releases/download/v0.2.0/star-setup-x86_64-apple-darwin.tar.xz"
-      sha256 "cf67a8921532db3e185ca6d422626cdacdc9a4c4556496359a79644714fa965e"
+      url "https://github.com/star-setup/core/releases/download/v0.2.1/star-setup-x86_64-apple-darwin.tar.xz"
+      sha256 "ee945b7d875aad406ab3cab57e4b64cf15f911da1dfa1a6f9a38f30c398d89ef"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/star-setup/core/releases/download/v0.2.0/star-setup-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "cc8ec58197b0a9b5d1ffa479e9f1a9cd1631e808d52b65d29edeec997e15511f"
+      url "https://github.com/star-setup/core/releases/download/v0.2.1/star-setup-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "98aa72785f03e0e7a3b9a487f0ff62fefeba91201ff33879bd486f981792f954"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/star-setup/core/releases/download/v0.2.0/star-setup-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "aa972520940d05988a47be25185cf8631c262a23667aa199219a8cebed2fb7e2"
+      url "https://github.com/star-setup/core/releases/download/v0.2.1/star-setup-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "90e7a085ce9f2b83deaab7bc758ddf3609aaf1f99ed98edab829bed516d2f337"
     end
   end
 
