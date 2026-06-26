@@ -1,25 +1,25 @@
 class StarSetup < Formula
   desc "Lightweight CLI to clone, configure, and wire single or multi-repo ecosystems"
   homepage "https://github.com/star-setup/core"
-  version "0.3.0"
+  version "0.3.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/star-setup/core/releases/download/v0.3.0/star-setup-aarch64-apple-darwin.tar.xz"
-      sha256 "31aadba5d431b1385f68d2a459bd72ea9bcacd602ba0127d93a76e9154dbf51c"
+      url "https://github.com/star-setup/core/releases/download/v0.3.1/star-setup-aarch64-apple-darwin.tar.xz"
+      sha256 "933b7e84a8ad52657c7766f8b021485c2a0104af4222d1f2e96ca1e8e5e37470"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/star-setup/core/releases/download/v0.3.0/star-setup-x86_64-apple-darwin.tar.xz"
-      sha256 "c9c2681e94233c2c307af1efd4b15f690b5e605cf30da9a3550a993a00a06f3a"
+      url "https://github.com/star-setup/core/releases/download/v0.3.1/star-setup-x86_64-apple-darwin.tar.xz"
+      sha256 "f20d4b533d903022aad3e9424c77528cb8de89192dedbdc123ae0f95b21fb61d"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/star-setup/core/releases/download/v0.3.0/star-setup-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "c238c4c87035c89fddae271f96de08f0120f192249cba4db6144ef09a1710996"
+      url "https://github.com/star-setup/core/releases/download/v0.3.1/star-setup-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "c68704e509268fd64d5b5965935061a743e99580ed58ce91d0b04ae130652d08"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/star-setup/core/releases/download/v0.3.0/star-setup-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "bc9660e47ea3be0d435d04ff0bef916c3cf82302a6860eb140e228e4abc0d7e3"
+      url "https://github.com/star-setup/core/releases/download/v0.3.1/star-setup-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "1e6e4e05e8f845eccd0590d8a18e6cfc2206568550892fe6d82262b77352e679"
     end
   end
 
